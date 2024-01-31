@@ -4,10 +4,14 @@ function App() {
   return (
     <>
       <header>
-        <>
-          <h5>gmail</h5>
-          <h5>images</h5>
-        </>
+        <div className="row">
+          <div className="col-auto">
+            <a href="">gmail</a>
+          </div>
+          <div className="col-auto">
+            <a href="">images</a>
+          </div>
+        </div>
       </header>
 
       <h1>Google</h1>
@@ -28,15 +32,15 @@ function App() {
       </div>
       <footer>
         <>
-          <h5>About</h5>
-          <h5>Advertising</h5>
-          <h5>Business</h5>
-          <h5>How search works</h5>
+          <a href="">About</a>
+          <a href="">Advertising</a>
+          <a href="">Business</a>
+          <a href="">How search works</a>
         </>
         <>
-          <h5>Privacy</h5>
-          <h5>Terms</h5>
-          <h5>Settings</h5>
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
         </>
       </footer>
     </>
