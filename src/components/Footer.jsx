@@ -5,17 +5,31 @@ function Footer() {
         <a href="">India</a>
       </div>
       <hr className="m-0" />
-      <div className="d-flex justify-content-between p-3">
+      <div className="d-flex justify-content-between p-3 row row-cols-1 row-cols-md-3 row-cols-lg-auto align-items-center">
         <>
-          <a href="">About</a>
-          <a href="">Advertising</a>
-          <a href="">Business</a>
-          <a href="">How search works</a>
+          <a className="col" href="">
+            About
+          </a>
+          <a className="col" href="">
+            Advertising
+          </a>
+          <a className="col" href="">
+            Business
+          </a>
+          <a className="col" href="">
+            How search works
+          </a>
         </>
         <>
-          <a href="">Privacy</a>
-          <a href="">Terms</a>
-          <a href="">Settings</a>
+          <a className="col" href="">
+            Privacy
+          </a>
+          <a className="col" href="">
+            Terms
+          </a>
+          <a className="col" href="">
+            Settings
+          </a>
         </>
       </div>
     </footer>

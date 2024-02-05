@@ -11,7 +11,7 @@ function Body() {
   };
 
   return (
-    <>
+    <div className="overflow-auto">
       <h1 id="brand" className="d-flex justify-content-center">
         Google
       </h1>
@@ -42,13 +42,37 @@ function Body() {
           <button className="mx-2 px-3 py-2">I'm feeling lucky</button>
         </div>
       </form>
-      <p className="d-flex justify-content-center">
-        Google is offered in <a href="">हिन्दी</a> <a href="">বাংলা</a>{" "}
-        <a href="">తెలుగు</a> <a href="">मराठी</a> <a href="">தமிழ்</a>{" "}
-        <a href="">ગુજરાતી</a> <a href="">ಕನ್ನಡ</a> <a href="">മലയാളം</a>{" "}
-        <a href="">ਪੰਜਾਬੀ</a>
-      </p>
-    </>
+      <div className="languages justify-content-center text-center row row-cols-1 row-cols-md-3 row-cols-lg-auto g-4">
+        <p className="col-md-12">Google is offered in</p>
+        <a href="" className="col">
+          हिन्दी
+        </a>
+        <a href="" className="col">
+          বাংলা
+        </a>
+        <a href="" className="col">
+          తెలుగు
+        </a>
+        <a href="" className="col">
+          मराठी
+        </a>
+        <a href="" className="col">
+          தமிழ்
+        </a>
+        <a href="" className="col">
+          ગુજરાતી
+        </a>
+        <a href="" className="col">
+          ಕನ್ನಡ
+        </a>
+        <a href="" className="col">
+          മലയാളം
+        </a>
+        <a href="" className="col">
+          ਪੰਜਾਬੀ
+        </a>
+      </div>
+    </div>
   );
 }
 
