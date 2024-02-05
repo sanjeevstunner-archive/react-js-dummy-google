@@ -1,5 +1,86 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
+
+#root,
+:root {
+  background-color: #202124;
+  color: #e8eaed;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+#brand {
+  font-size: 6rem;
+}
+
+.search-box {
+  border: 1px solid #5f6368;
+  border-radius: 30px;
+
+  button {
+    background-color: transparent;
+    border: none;
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+#search-icon {
+  color: #5f6368;
+}
+
+textarea {
+  height: 1.5rem;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  width: 40vw;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #e8eaed;
+  outline: none;
+  display: flex;
+  flex: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
 a {
   $padding: 0.5rem;
   padding-left: $padding;
   padding-right: $padding;
+  text-decoration: none;
+}
+
+header,
+footer {
+  a {
+    color: #e8eaed;
+  }
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid #303134;
+  background-color: #303134;
+  color: #e8eaed;
+  &:hover {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    border: 1px solid #5f6368;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #171717;
+}
+
+.row {
+  --bs-gutter-x: 0;
 }
